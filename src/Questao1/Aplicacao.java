@@ -3,10 +3,11 @@ package Questao1;
 public class Aplicacao {
 
 	public static void main(String[] args) {
-		Fibonacci calculoFi = new Fibonacci();
+		SomaElementos calculoSoma = new SomaElementos();
 		
-		System.out.println("Resultado: "+calculoFi.calculoFibonacci(10));
+		calculoSoma.setN(5);
 		
+		System.out.println("Resultado: " +calculoSoma.SomaNValores(4));
 
 	}
 

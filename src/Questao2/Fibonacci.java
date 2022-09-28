@@ -1,4 +1,4 @@
-package Questao1;
+package Questao2;
 
 public class Fibonacci {
 	

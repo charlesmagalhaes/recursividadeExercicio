@@ -1,3 +1,4 @@
+package Questao1;
 
 public class SomaElementos {
 	private int n;
