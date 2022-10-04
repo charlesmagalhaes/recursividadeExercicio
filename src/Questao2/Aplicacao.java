@@ -5,7 +5,7 @@ public class Aplicacao {
 	public static void main(String[] args) {
 		Fibonacci calculoFi = new Fibonacci();
 		
-		System.out.println("Resultado: "+calculoFi.calculoFibonacci(10));
+		System.out.println("Resultado: "+calculoFi.calculoFibonacci(11));
 		
 
 	}

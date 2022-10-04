@@ -14,7 +14,6 @@ public class Fibonacci {
 		}else if( n == 2){
 			return 1;
 		}else {
-			System.out.println(calculoFibonacci(n-1)+" - "+ calculoFibonacci(n-2));
 			return calculoFibonacci(n-1) + calculoFibonacci(n-2);
 		}
 	}

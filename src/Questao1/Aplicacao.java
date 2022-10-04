@@ -7,7 +7,7 @@ public class Aplicacao {
 		
 		calculoSoma.setN(5);
 		
-		System.out.println("Resultado: " +calculoSoma.SomaNValores(4));
+		System.out.println("Resultado: " +calculoSoma.SomaNValores(9));
 
 	}
 
