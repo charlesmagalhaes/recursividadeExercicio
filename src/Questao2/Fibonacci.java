@@ -9,13 +9,42 @@ public class Fibonacci {
 	}
 	
 	public int calculoFibonacci(int n) {
+		int resultado = 0;
+		
 		if(n == 1) {
-			return 0;
+			resultado =  0;
 		}else if( n == 2){
-			return 1;
+			resultado = 1;
 		}else {
-			return calculoFibonacci(n-1) + calculoFibonacci(n-2);
+			
+			
+			resultado = calculoFibonacci(n-1) + calculoFibonacci(n-2);
+			
 		}
+		return resultado;
+		
+	}
+	
+	public int calculoFibonacciInterativo(int n) {
+		
+		int resultado = 0;
+		int termoAntigo = 0;
+		int termoAtual = 1;
+		
+		
+		if( n == 1) {
+			resultado = 0;
+		}else if(n == 2) {
+			resultado = 1;
+		}else {
+			for(int i=0;i<n-2;i++) {
+				resultado = termoAntigo+termoAtual;
+				termoAntigo = termoAtual;
+				termoAtual = resultado;
+			}	
+			
+		}
+		return resultado;
 	}
 
 }
