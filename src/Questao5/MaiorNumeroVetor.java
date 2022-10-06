@@ -1,14 +1,28 @@
 package Questao5;
 
 public class MaiorNumeroVetor {
+	int tam;
+	int indice = 0;
 	
-	public int maior(int[] vetor, int tam, int indice) {
+	
+	
+	public MaiorNumeroVetor(int tam) {
+		this.tam = tam;
+	}
+
+
+
+	public int maior(int[] vetor) {
 		if(tam == 0) {
 			return vetor[indice];
 		}else if(vetor[tam - 1] > vetor[indice]) {
-			return maior(vetor, tam - 1, tam - 1);
+			indice = tam -1;
+			tam--;
+			return maior(vetor);
 		}else {
-			return maior(vetor, tam - 1, indice);
+			tam--;
+			return maior(vetor);
+			
 		}
 	}
 
