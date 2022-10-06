@@ -1,2 +1,2 @@
 Não houve como medir o tempo na função interativa, pois  não sei porque o System.currentTimeMillis() está ficando com os mesmos valores de entrada e saida.
-No método recursivo o tempo ficou 0,3310 ms com entrada n de 40.
+No método recursivo o tempo ficou 0,3310 ms com entrada n de 40 e o interativo 0,00100 ms
